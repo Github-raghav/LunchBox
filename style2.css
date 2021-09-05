@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+* { margin: 0px; padding: 0px; box-sizing: border-box; font-family: Poppins, sans-serif; }
+.main { background-color: beige; height: 100vh; }
+.nav { position: relative; height: 12%; padding: 12px 139px; display: flex; width: 100%; background: aliceblue; justify-content: space-around; align-items: baseline; }
+.signup { height: 49px; width: 88px; display: flex; align-items: center; justify-content: center; font-size: large; font-weight: bold; cursor: pointer; margin-left: 791px; }
+.signupicon { margin-left: 6px; }
+.carticon { margin-left: 6px; }
+.deals { width: 74px; display: flex; align-items: center; justify-content: center; font-size: large; font-weight: bold; height: 49px; cursor: pointer; }
+.cart { height: 49px; width: 74px; display: flex; align-items: center; justify-content: center; font-size: large; font-weight: bold; cursor: pointer; }
+.input {width: 231px;display: flex;font-size: x-large;font-weight: bold;BACKGROUND: ALICEBLUE;}
+.dropicon { position: relative; right: 18px; }
+.locicon { position: absolute; }
+#text1 {padding: 1px 14px;font-weight: bolder;font-size: large;background: aliceblue;border-radius: 7px;border: 2px solid grey;}
+.main { }
+.info { height: 4rem; width: 41rem; margin: 2px 46px; padding: 2px 18px; color: grey; font-weight: bold; font-size: larger; }
+.main figure { height: 23rem; width: 53rem; margin: 10px 41px; }
+.main figure img { height: 23rem; width: 53rem; }
+.main ul { display: flex; margin: 4px 41px; place-content: center flex-start; align-items: center; list-style: none; }
+ul li { margin: 2px 17px; padding: 4px 7px; border: 2px solid grey; border-radius: 5px; }
+#Addreview { border: none; width: 6rem; height: 2rem; background: antiquewhite; cursor: pointer; font-weight: bold; font-size: initial; }
+#Direction { border: none; width: 6rem; height: 2rem; background: antiquewhite; cursor: pointer; font-weight: bold; font-size: initial; }
+#Bookmark { border: none; width: 6rem; height: 2rem; font-weight: bold; font-size: initial; cursor: pointer; background: antiquewhite; }
+#Share { border: none; width: 6rem; height: 2rem; background: antiquewhite; font-weight: bold; font-size: initial; cursor: pointer; }
+#Ordernow{border: none; width: 6rem; height: 2rem; background: antiquewhite; cursor: pointer; font-weight: bold; font-size: initial };

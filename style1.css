@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap"); * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+.main{
+    background-color: beige;
+    height: 100vh;
+}
+
+.nav {
+    position: relative;
+    height: 12%;
+    padding: 12px 139px;
+    display: flex;
+    width: 100%;
+    background: aliceblue;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.signup {
+    height: 49px;
+    /* background: antiquewhite; */
+    width: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 791px;
+}
+
+.signupicon{
+
+margin-left: 6px;
+}
+.carticon{
+    
+margin-left: 6px;
+}
+
+.deals {
+    /* background: antiquewhite; */
+    width: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    height: 49px;
+    cursor: pointer;
+}
+
+.cart {
+    height: 49px;
+    /* background: antiquewhite; */
+    width: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+.input{
+
+width: 231px;
+
+height: 17x;
+
+display: flex;
+
+font-size: x-large;
+
+font-weight: bold;
+}
+.input .location {
+}
+
+
+.wrapper {
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: flex-start center;
+    margin: 3px 30px;
+    padding: 4px 13px;
+}
+
+.pic1 {
+    height: 16rem;
+    position: relative;
+    width: 26%;
+    top: 39px;
+    margin: 8px 5px;
+    padding: 3px 0px;
+}
+
+.pic2 {
+    height: 16rem;
+    position: relative;
+    width: 26%;
+    top: 39px;
+    margin: 8px 5px;
+    padding: 3px 0px;
+}
+
+.pic3 {
+    height: 16rem;
+    position: relative;
+    width: 25%;
+    top: 39px;
+    margin: 8px 5px;
+    padding: 3px 0px;
+}
+
+
+.pic4 {
+    height: 16rem;
+    position: relative;
+    width: 26%;
+    top: 56px;
+    margin: 8px 5px;
+    padding: 3px 0px;
+}
+
+.pic5 {
+    height: 16rem;
+    position: relative;
+    width: 26%;
+    top: 56px;
+    margin: 8px 5px;
+    padding: 3px 0px;
+}
+
+.pic6 {
+    height: 16rem;
+    position: relative;
+    width: 26%;
+    top: 56px;
+    margin: 8px 5px;
+    padding: 3px 0px;
+}
+.pic1 img {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.pic2 img {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.pic3 img {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.pic4 img {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.pic5 img {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.pic6 img {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+.wrapper.text{
+    
+}

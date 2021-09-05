@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DATABASE</title>
+</head>
+<body>
+    
+
+    <div>
+        Database Name <input id="database_name" type="text">
+        Version <input id="database_version" type="text">
+        <button id="openDB">open database</button>
+      </div>
+
+      <div>
+          Email-ID<input id="emailid" type="text">
+          Password <input id="password" type="text">
+      </div>
+     
+      <button id="Search">Search</button>
+
+      <script>
+      
+      let db;
+      let dbName=document.querySelector(`#database_name`);
+      let dbversion=document.querySelector(`#database_version`);
+      
+      function openDb(){
+          let dbrequest=indexedDB.open(dbName.value,dbversion.value);
+
+       dbrequest.onupgradeneeded=function(e){
+          alert("Inside upgrade event");
+          db=e.target.result;
+          let emailtable=db.createObjectStore("Email",{Keypath : "mid"});
+
+       }
+     
+
+      }
+
+
+      </script>
+
+</body>
+</html>
